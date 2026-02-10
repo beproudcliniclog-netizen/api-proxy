@@ -1,6 +1,4 @@
 import fetch from "node-fetch";
-import dotenv from "dotenv";
-dotenv.config({ path: require('path').resolve(process.cwd(), '.env') });
 
 export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
